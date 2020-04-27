@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    padding-top: 54px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+}
+
+.content-section {
+    margin: auto;
+    padding-top: 30px;
+    background-color: cornflowerblue;
+    max-width: 935px;
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+}
+
+.newfeed-section {
+    margin-right: 28px;
+    max-width: 614px;
+    width: 100%;
+    background-color: crimson;
+    height: 1000px;
+}
+
+.info-section {
+    position: fixed;
+    top: 84px;
+    background-color: darkgoldenrod;
+    height: 500px;
+    width: 100%;
+    max-width: 293px;
+    z-index: 1;
+}
