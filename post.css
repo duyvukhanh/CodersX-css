@@ -1,0 +1,154 @@
+.post {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin-bottom: 60px;
+}
+
+.post-header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+
+}
+
+.post-header .post-owner-img {
+    height: 32px;
+    width: 32px;
+}
+
+.post-header .post-owner-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.post-header .post-owner-name {
+    flex-grow: 1;
+    padding: 0 16px;
+}
+
+.post-header .post-option {
+    font-size: 14px;
+}
+
+.post-picture {
+    height: auto;
+    width: 100%;
+}
+
+.post-picture img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.post-content {
+
+}
+
+.post-react {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    font-size: 28px;
+    color: 404040;
+}
+
+
+.post-react-1 i {
+    margin-right: 16px;
+}
+
+.post-count-like {
+    padding-left: 16px;
+    font-size: 14px;
+    /* padding-bottom: 16px; */
+}
+
+.post-comment {
+    padding: 6px 16px;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.post-comment .comment {
+    display: flex;
+    align-items: center;
+}
+
+.view-more-comment {
+    color: #939393;
+}
+
+.love {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    color: #aaa;
+}
+
+.user{
+    color: #262626;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+.tagged-user{
+    color: #00376b;
+    /* font-weight: 600; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.post-time {
+    padding: 0 16px;
+    color: #939393;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+}
+
+.post-add-comment {
+    padding: 0 16px;
+    border-top: 1px solid #efefef;
+    font-size: 14px;
+    line-height: 18px;
+    min-height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-add-comment textarea {
+    height: 18px;
+    width: 100%;
+    max-height: 80px;
+    outline: 0;
+    padding: 0;
+    resize: none;
+    background: 0 0;
+    border: 0;
+}
+
+.post-add-comment button {
+    background: 0 0;
+    border: 0;
+    font-size: 14px;
+    color: #0095f6;
+    opacity: .3;
+    font-weight: 600;
+}
+
+
+.post-add-comment textarea::placeholder {
+    font-family: 'Open Sans', sans-serif;
+}
