@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cantarell|Open+Sans:300|Oxygen:300|Roboto:300|Ubuntu:300');
 
 body {
     padding-top: 54px;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: "Segoe UI";
     background-color: #fafafa;
     letter-spacing: 0.5px;
 }

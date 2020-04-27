@@ -114,9 +114,23 @@
     padding-left: 16px;
 }
 
+.story .story-img-container {
+    /* height: 38px;
+    width: 38px; */
+    background: linear-gradient(to right, orange, #c62d8f);
+    border-radius: 50%;
+    padding: 2px;
+
+}
+
  .story .story-img {
     height: 34px;
     width: 34px;
+    padding: 2px;
+    /* background: linear-gradient(to right, orange, #c62d8f); */
+    background-color: white;
+    border-radius: 50%;
+
 }
 
 .story .story-img img {
@@ -124,8 +138,7 @@
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
-    padding: 2px;
-    background: linear-gradient(to right, orange, #c62d8f);
+    
 }
 
 .story .story-detail {
